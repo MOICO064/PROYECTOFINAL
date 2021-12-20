@@ -16,7 +16,7 @@ body {
 	width: 90%;
 	max-width: 10000px;
 	display: flex;
-	flex-direction:row;
+	flex-direction:row-reverse;
 	flex-wrap:wrap;
 }
 header {
