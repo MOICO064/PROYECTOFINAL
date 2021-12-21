@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+    <div class="cont">
+        <form action="formulario.html"  method="get">
+            <h1>FORMULARIO EN HTML</h1>
+            <h2>Nombre Completo: <input type="text" placeholder="nombre" pattern="5" required ></h2>
+            <h2>Correo: <input type="email" placeholder="example@gmail.com" minlength="5" required></h2>
+            <h2>Contraseña: <input type="password" placeholder="contraseña" minlength="8" required></h2>
+            <h2>Celular: <input type="tel" placeholder="Celular" required></h2>
+           <h2>Fecha: <input type="date"></h2>
+           <h2>Tipo de usuario: <ul>
+               <label for="superior">superior</label>
+               <input type="radio" name="genero" value="superior" id="sup"><br>
+               <label for="inferior">inferior</label>
+               <input type="radio" name="genero" value="inferior" id="inf">
+           </ul> </h2>
+           <h2>Lugar de requerimiento: <select name="pais" id="pais">
+            <option >selecionar departamento</option>
+            <option value="cochabamba">cochabamba</option>
+            <option value="La Paz"required>La Paz</option>
+            <option value="santa cruz">Santa Cruz</option>
+        </select></h2>
+        <h2>Comentario: <br><textarea name="comentario" id="coment" cols="30" rows="10"></textarea></h2>
+            
+             <input type="submit" placeholder="enviar" id="enviar">
+              
+        </form>
+    </div>
+</body>
+</html>
