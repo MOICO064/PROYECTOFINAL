@@ -10,7 +10,7 @@ body {
 	background: #000 url('imagenes/fondo.png');
 	background-size: cover ;
 	background-attachment: fixed;
-	box-sizing: border-box;
+	
 }
 .padre {
 	margin: auto;
@@ -53,9 +53,6 @@ header .menu nav ul li{
 	justify-content: center;
     width: 80%;
 	justify-content: space-between;
-
-	
-
 }
 
 header .menu a:hover {text-decoration: underline;
@@ -185,9 +182,9 @@ footer .redes a:hover {
 		padding: 20px;
 	}
 
-	header .logo img{
+	header .logo {
 		margin-bottom: 20px;
-		
+		text-align: center;
 	}
 
 	header .menu a {
