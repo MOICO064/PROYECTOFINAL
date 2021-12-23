@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
  background-color: rgb(253, 253, 253);
 }
@@ -32,7 +33,9 @@ header{
     border-radius: 30%;
     border: 5px solid white;
 }
-
+.menu ul {
+	list-style: none ;
+}
 
 footer {
 	margin-top: 20px;
@@ -61,3 +64,36 @@ footer .redes a:hover {
 	text-decoration: none;
 	color: aliceblue;
 }
+
+/*
+.menu{
+	width: 1000px;
+	margin: 30px auto;
+}
+.menu ul{
+ list-style: none;	
+}
+.menu > li{
+
+	display: inline-block;
+}
+.menu >li>a{
+	display: block;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+.menu li a:hover{
+	transition: all .3s;
+}
+.submenu{
+	position: absolute;
+	width: 120%;
+}
+.submenu li a{
+	display: block;
+	padding: 15px;
+    text-decoration: none;
+}
+.submenu li a:hover .submenu{
+display: block;
+}*/
