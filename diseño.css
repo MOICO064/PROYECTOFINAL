@@ -1,15 +1,15 @@
 *{
     padding: 0;
 	margin: 0;
-	
 	box-sizing: border-box;
+	
 }
 body {
 	font-family: 'Open Sans', sans-serif;
 	background: #000 url('imagenes/fondo.png');
 	background-size: cover ;
 	background-attachment: fixed;
-       
+	box-sizing: border-box;
 }
 .padre {
 	margin: auto;
@@ -36,7 +36,9 @@ header .logo h1{
 }
 header .logo img{
     margin-top: 20px;
-    width: 20%;
+    width: 100px;
+	height: auto;
+	border-radius: 30%;
 }
 header .menu a {
 	color: #000;
@@ -68,8 +70,7 @@ color: green;}
 .main .pr {
     margin-top: 20px ;
     width: 100%;
-    max-height: 100%;
-    height: 300px;
+    height: auto;
     
     
   
@@ -93,8 +94,8 @@ display: center;
     
     width: 200px ;
     height: 200px;
-   opacity: 0.5;
-   border: 5px solid red;
+    opacity: 0.5;
+ border: 5px solid red;
 }
 .modelos img:hover{
     opacity: 1;
@@ -104,14 +105,10 @@ aside {
 	width: 30%;
 	background:rgba(255,255,255,.2);;
 	padding: 20px;
-	
-
+	box-sizing: border-box;
 }
 
-aside .oficinas{
-	
-	
-    
+aside .oficinas{   
     width: 95%;
 	color: #000;
 	
@@ -143,17 +140,19 @@ footer {
 	justify-content:space-between;
 }
 footer .redes li{
-	display: block;
+	display: inline-block;
+    
 }
 
 footer .redes a {
 	color: #000;
 	text-decoration: underline;
-	margin-left: 10px;
+	margin-left: 20px;
 	
 }
 
 footer .redes a:hover {
 	text-decoration: none;
+	color: aliceblue;
 }
 

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMPORTADORA VEHICULO SEGURO</title>
+    <link rel="shortcut icon" type="imagen/x-icon" href="imagenes/LOGO.ico">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+<div class="padre">
+    <form action="formulario.html" method="get" >
+        <header>
+            <div class="logo"><h1>IMPORTADORA VEHICULO SEGURO</h1></div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="">VEHICULOS</a></li>
+                        <li><a href="#">CONTACTENOS</a></li>
+                    </ul>
+               </nav>
+            </div>
+            
+        </header>
+        <main>
+            <h4>LLENE EL SIGUIENTE FORMULARIO PARA SER ATENDIDO</h4>
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" placeholder="Nombre Completo"  minlength="5" id="nombre" required> <br>
+            <label for="gmail">Correo Electronico:</label>
+            <input type="email" placeholder="example@gmail.com" id="gmail" required> <br>
+            <label for="nacimiento">Fecha De Nacimiento:</label>
+            <input type="date" ><br>
+            <label for="movil">Celular:</label>
+            <input type="number" placeholder="Celular" id="movil" maxlength="8"><br>
+            <label for="Ciudad">Ciudad:</label>
+            <select name="ciudad" id="ciudad">
+                <option value="Cochabamba">Cochabamba</option>
+                <option value="La Paz">La Paz</option>
+                <option value="Santa Cruz">Santa Cruz</option>
+                <option value="Tarija">Tarija</option>
+
+            </select> <br>
+            <label for="Femenino">Femenino</label>
+            <input type="radio" name="genero" value="Femenino" id="Femenino" >
+            <label for="Masculino">Masculino</label>
+            <input type="radio" name="genero" value="Masculino" id="Masculino" > <br>
+            
+            <div class="boton"> <input type="submit"  value="enviar" id="boton"></div>
+            
+           
+         </main>
+        
+       
+    </form>
+    <footer>
+        <div>&copy;Derechos reservados</div>
+        <div class="redes">
+            <h2>Redes Sociales:</h2>
+            <ul>
+                <li><a href="#">Facebook</a> </li>
+                <li><a href="#">Instagram</a> </li>
+            </ul>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>

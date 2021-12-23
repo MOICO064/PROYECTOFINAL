@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color:rgb(243, 239, 239);
+    
+}
+.padre{
+    margin: auto; 
+    width: 100%;
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+header{
+    width: 100%;
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap row;
+    background-color: black;
+    color: rgb(247, 6, 6);
+}
+.menu{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.menu li{
+    display:inline;
+    margin: 10px;
+}
+.menu a{
+
+    color:white; 
+    text-decoration: none;  
+}
+.menu a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+main{
+	padding: 20px;
+	width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 2px solid black;
+    
+}
+main h4{
+    margin-bottom: 20px;
+    text-align: center;
+}
+main .boton{
+   display: flex;
+   justify-content: center;
+   
+}
+#boton{
+    width: 100px;
+}
+
+footer{
+    
+	background: rgb(8, 8, 8);
+	padding: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+    align-items: center;
+}
+.redes li{
+    
+display: inline-block;
+font-size: 18px;
+margin: 10px;
+}
+.redes li a{
+    color: rgb(31, 7, 253);
+    text-decoration: none;
+}
+.redes li a:hover
+{
+    color: red;
+    text-decoration: underline;
+}
