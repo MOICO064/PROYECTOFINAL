@@ -95,3 +95,54 @@ margin: 10px;
     color: red;
     text-decoration: underline;
 }
+@media screen and (max-width: 800px) {
+	.main {
+		width: 100%;
+	}
+
+	aside {
+		width: 100%;
+		flex-direction:row;
+	}
+
+	aside .oficinas {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		flex-direction:column;
+		padding-bottom: 20px; 
+	}
+
+	header .menu {
+		width: 100%;
+		background: rgba(255,255,255,.2);
+		text-align: center;
+		padding: 20px;
+	}
+
+
+	header .menu a {
+		margin:0 20px; 
+	}
+
+	footer {
+		flex-direction:column;
+		text-align: center;
+	}
+
+
+
+	footer .redes-sociales {
+		order:1;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	aside {
+		display: none;
+	}
+}
